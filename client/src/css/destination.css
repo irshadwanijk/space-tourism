@@ -1,0 +1,69 @@
+.destination {
+  margin-top: 4rem;
+}
+
+.dest-container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+}
+
+.mars-img {
+  margin-left: 4rem;
+  margin-top: 5rem;
+}
+
+#destName {
+  font-size: 6rem;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 1rem;
+}
+#desDescription {
+  margin-bottom: 4rem;
+  max-width: 22rem;
+}
+
+.subnav-container {
+  display: flex;
+}
+
+.buttons {
+  color: white;
+  border: none;
+  background-color: transparent;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.travel-details {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dest-container-right {
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .dest-container {
+    /* border: solid red; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+  }
+  .mars-img {
+    max-width: 400px;
+    height: 350px;
+    margin: 3rem auto;
+  }
+  .pick-des-text {
+  }
+  .dest-container-right {
+    /* border: solid rgb(7, 252, 44); */
+  }
+  .dest-container-left {
+    /* border: solid blue; */
+  }
+}
